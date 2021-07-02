@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16em;
+}
+
+/* Colors */
+:root {
+  --primary-clr: #205492;
+  --primary-darker-clr: #112e51;
+  --secondary-clr: #02bfe7;
+  --secondary-darker-clr: #00a6d2;
+
+  --dark-clr: rgb(37, 34, 34);
+  --light: #f7e7e7;
+}
+
+/* Fonts */
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --fs-s: 1rem;
+  --fs-m: 2rem;
+  --fs-lg: 3rem;
+}
+
+/* Size */
+:root {
+  --pd-s: 1em;
+  --pd-md: 2em;
+  --pd-lg: 4em;
+
+  --wd-full: 100%;
+  --wd-wide: 1200px;
+  --wd-large: 1000px;
+  --wd-md: 800px;
+  --wd-sm: 400px;
+}
+
+/* Others */
+:root {
+  line-height: 1.5;
+  --shadow: 0rem 0rem 3rem var(--dark-clr);
+  --border-radius: 5px;
+}

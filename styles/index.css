@@ -7,18 +7,20 @@
 }
 
 :root {
-  font-size: 16em;
+  font-size: 16px;
 }
 
 /* Colors */
 :root {
-  --primary-clr: #205492;
-  --primary-darker-clr: #112e51;
-  --secondary-clr: #02bfe7;
-  --secondary-darker-clr: #00a6d2;
+  --primary-bg-clr: #dce4ef;
+  --secondary-bg-clr: #205493;
 
-  --dark-clr: rgb(37, 34, 34);
-  --light: #f7e7e7;
+  --btn-clr: #02bfe7;
+  --btn-imp-clr: #e31c3d;
+  --btn-imp-hover: #cd2026;
+
+  --primary-fnt-clr: #333;
+  --secondary-fnt-clr: #112e51;
 }
 
 /* Fonts */
@@ -31,9 +33,9 @@
 
 /* Size */
 :root {
-  --pd-s: 1em;
-  --pd-md: 2em;
-  --pd-lg: 4em;
+  --pd-s: 1rem;
+  --pd-md: 2rem;
+  --pd-lg: 4rem;
 
   --wd-full: 100%;
   --wd-wide: 1200px;

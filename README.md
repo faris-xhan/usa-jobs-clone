@@ -6,4 +6,4 @@ A clone of usa-jobs website
 
 THIS WEBSITE IS CLONE OF https://www.usajobs.gov/
 I BUILT IT TO PRACTICE MY CODING SKILLS i.e HTML, CSS & JS.
-THANK YOU
+THANK YOU.

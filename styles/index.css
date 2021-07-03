@@ -13,7 +13,7 @@
 /* Colors */
 :root {
   --primary-bg-clr: #dce4ef;
-  --primary-bg-hover: rgba(220, 228, 239, 0.1);
+  --primary-bg-hover: rgba(220, 228, 239, 0.3);
   --secondary-bg-clr: #205493;
   --secondary-bg-hover: #1f5ba5;
 

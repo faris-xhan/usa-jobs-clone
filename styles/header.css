@@ -95,12 +95,11 @@ button.nav-item {
 
 .nav-item:hover {
   color: var(--secondary-bg-clr);
-  border-bottom-color: var(--primary-bg-clr);
-  background-color: var(--primary-bg-hover);
+  border-bottom-color: var(--secondary-bg-clr);
 }
 
 .nav-item.active {
-  border-bottom-color: var(--primary-bg-clr);
+  border-bottom-color: var(--secondary-bg-clr);
   color: var(--secondary-bg-clr);
   background-color: var(--primary-bg-hover);
 }

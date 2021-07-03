@@ -13,7 +13,9 @@
 /* Colors */
 :root {
   --primary-bg-clr: #dce4ef;
+  --primary-bg-hover: rgba(220, 228, 239, 0.1);
   --secondary-bg-clr: #205493;
+  --secondary-bg-hover: #1f5ba5;
 
   --btn-clr: #02bfe7;
   --btn-imp-clr: #e31c3d;
@@ -31,7 +33,7 @@
   --fs-lg: 3rem;
 }
 
-/* Size */
+/* Size & gutters */
 :root {
   --pd-s: 1rem;
   --pd-md: 2rem;
@@ -42,6 +44,11 @@
   --wd-large: 1000px;
   --wd-md: 800px;
   --wd-sm: 400px;
+
+  --gutter: 1rem;
+  --gutter-s: 0.5rem;
+  --gutter-md: 2rem;
+  --gutter-lg: 3rem;
 }
 
 /* Others */
@@ -51,6 +58,11 @@
   --border-radius: 5px;
 }
 
+@media screen and (max-width: 600px) {
+  :root {
+    --primary-bg-hover: transparent;
+  }
+}
 /* ****************** */
 /* ****************** */
 /* ****************** */

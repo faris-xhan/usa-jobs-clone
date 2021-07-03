@@ -1,0 +1,110 @@
+/* => header.css */
+
+@media screen and (max-width: 600px) {
+  body {
+    min-width: 400px;
+  }
+  header {
+    width: 100%;
+  }
+
+  .header-1 img {
+    width: 48px !important;
+  }
+
+  .logo {
+    padding-bottom: var(--pd-s);
+  }
+  div.header-2 {
+    padding: 0;
+    padding-top: var(--pd-md);
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--secondary-bg-clr);
+}
+
+.header-1 {
+  display: flex;
+  align-items: center;
+  padding: 0 var(--pd-md);
+  width: var(--wd-full);
+  min-width: var(--wd-sm);
+  background-color: var(--primary-bg-clr);
+  font-size: 12px;
+}
+
+.header-1 img {
+  width: 20px;
+  margin-right: var(--gutter-s);
+}
+
+/* header => header-2  */
+
+.header-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  padding: 0 var(--pd-md);
+}
+
+.header-2 nav {
+  display: flex;
+}
+
+a.logo {
+  width: 168px;
+  margin-bottom: -12px;
+}
+
+.usa-jobs-logo {
+  fill: rgba(152, 29, 32, 0.8);
+  transition: fill 150ms ease-in;
+}
+
+.usa-jobs-logo:hover {
+  fill: rgba(152, 29, 32, 1);
+}
+
+a.nav-item,
+button.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: var(--pd-s);
+  background: transparent;
+  outline: none;
+  border: 3px solid transparent;
+  color: var(--primary-fnt-clr);
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  letter-spacing: 0.05rem;
+  font-size: var(--fs-s);
+  transition: all 150ms ease-in;
+}
+
+.nav-item:hover {
+  color: var(--secondary-bg-clr);
+  border-bottom-color: var(--primary-bg-clr);
+  background-color: var(--primary-bg-hover);
+}
+
+.nav-item.active {
+  border-bottom-color: var(--primary-bg-clr);
+  color: var(--secondary-bg-clr);
+  background-color: var(--primary-bg-hover);
+}
+
+.nav-item span {
+  margin-right: 10px;
+}

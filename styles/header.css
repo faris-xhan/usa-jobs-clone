@@ -98,7 +98,7 @@ button.nav-item {
   border-bottom-color: var(--secondary-bg-clr);
 }
 
-.nav-item:focus {
+.nav-item:focus-visible {
   outline: 1px solid black;
 }
 

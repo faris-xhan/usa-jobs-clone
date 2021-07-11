@@ -17,7 +17,8 @@
   --secondary-bg-clr: #205493;
   --secondary-bg-hover: #1f5ba5;
 
-  --btn-clr: #02bfe7;
+  --btn-clr: #02c1e7e5;
+  --btn-clr-hvr: #0fd1f8;
   --btn-imp-clr: #e31c3d;
   --btn-imp-hover: #cd2026;
 
@@ -66,3 +67,89 @@
 /* ****************** */
 /* ****************** */
 /* ****************** */
+
+/* Search-form */
+
+.header-3 {
+  background-color: rebeccapurple;
+  padding: 0 var(--pd-md);
+}
+
+.search-bar-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar-form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-items > label {
+  display: flex;
+  align-items: center;
+  font-size: var(--fs-s);
+  color: white;
+  cursor: pointer;
+}
+
+div.form-items:last-child {
+  align-self: flex-end;
+  width: inherit;
+}
+
+.form-items {
+  padding-right: var(--pd-lg);
+  padding-top: var(--pd-md);
+  padding-bottom: var(--pd-s);
+  width: 100%;
+}
+
+.form-items > input,
+.form-items > button {
+  font-family: inherit;
+  padding: var(--pd-s);
+  margin-top: var(--gutter-s);
+  border-radius: var(--border-radius);
+  outline: none;
+  border: 3px solid transparent;
+  font-size: var(--fs-s);
+  font-weight: 500;
+}
+
+.form-items > input {
+  box-shadow: var(--shadow);
+}
+
+.form-items > label:hover {
+  color: var(--secondary-fnt-clr);
+}
+
+div.form-items > input {
+  background-color: rgba(255, 255, 255, 0.897);
+}
+
+div.form-items > input:hover,
+div.form-items > input:focus,
+div.form-items > input:focus-within {
+  background-color: white;
+}
+
+div.form-items > button {
+  background-color: var(--btn-clr);
+  letter-spacing: 0.02em;
+  padding: var(--pd-s) var(--pd-md);
+  cursor: pointer;
+}
+
+div.form-items > button:hover {
+  background-color: var(--btn-clr-hvr);
+}
+
+.header-3 {
+  display: none;
+}
+
+.header-3.active {
+  display: block;
+}

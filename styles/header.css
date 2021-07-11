@@ -98,6 +98,10 @@ button.nav-item {
   border-bottom-color: var(--secondary-bg-clr);
 }
 
+.nav-item:focus {
+  outline: 1px solid black;
+}
+
 .nav-item.active {
   border-bottom-color: var(--secondary-bg-clr);
   color: var(--secondary-bg-clr);

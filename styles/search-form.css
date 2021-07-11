@@ -78,7 +78,8 @@ div.form-items > button {
   cursor: pointer;
 }
 
-div.form-items > button:hover {
+div.form-items > button:hover,
+div.form-items > button:focus {
   background-color: var(--btn-clr-hvr);
 }
 

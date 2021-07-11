@@ -9,6 +9,11 @@
 .header-3 {
   background-color: rgb(43, 43, 43);
   padding: 0 var(--pd-md);
+  display: none;
+}
+
+.header-3.active {
+  display: block;
 }
 
 .search-bar-form {
@@ -81,12 +86,4 @@ div.form-items > button {
 div.form-items > button:hover,
 div.form-items > button:focus {
   background-color: var(--btn-clr-hvr);
-}
-
-.header-3 {
-  display: none;
-}
-
-.header-3.active {
-  display: block;
 }
